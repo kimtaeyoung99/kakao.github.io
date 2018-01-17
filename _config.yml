@@ -59,12 +59,10 @@ google_analytics:
   ua: 'UA-72007721-1'
 facebook:
   app_id: '1204347326263800'
-  username: nkakao
-twitter:
-  username: kakaodev
+  username: kimtaeyoung99
 google_plus:
   username: kakaodev
 github_url:
-  username: kakao
+  username: kimtaeyoung99
 
 port: 8080
