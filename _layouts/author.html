@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<div id="navbar" class="container">
+    <h5><a id="link-back" href="/">Main</a></h5>
+    {% include share.html %}
+</div>
+
+<div id="cover" class="container"
+     {% if page.cover %}style="background-image: url({{ page.cover }});"{% endif %}>
+    <div>
+        <div id="cover-author-image"
+             {% if page.image %}style="background-image:url({{ page.image }});"{% endif %}>
+            <span class="sr-only">{{ page.name }}'s profile image</span>
+        </div>
+        <h1>{{ page.title | default: page.name }}</h1>
+        <p>All Posts by <em>{{ page.name }}</em></p>
+    </div>
+</div>
+
+<div id="content" class="container">
+    <div id="author-content" role="main">
+        
+        <h1>
+            소개
+        </h1>
+        <p>김태영</p>
+        <p> 강남대학교 IoT전자공학과 17학번 재학중</p>
+        <p>E-mail: 0rlaxodud@naver.com</p>
+        
+        <!--<ul id="post-list">
+            {% for post in site.posts %}
+                {% if post.author == page.name %}
+                    {% include item.html %}
+                {% endif %}
+            {% endfor %}
+        </ul>-->
+        {% include pagination.html %}
+    </div>
+</div>
