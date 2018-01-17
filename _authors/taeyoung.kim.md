@@ -1,5 +1,5 @@
 ---
-name: albert.kim
-title: 김진덕
+name: taeyoung.kim
+title: 김태영
 image: /files/authors/albert.kim.jpg
 ---
