@@ -1,8 +1,6 @@
-<<<<<<< HEAD
+
 
 김태영
-=======
->>>>>>> 7e7810f73a335f8b80e43b2fb5b30701b711a536
 tech.kakao.com
 ==============
 
@@ -72,6 +70,8 @@ $ git push origin master
 ```
 $ bundle exec jekyll serve --drafts
 ```
+
+4. bundle exec jekyll serve (서버 실행)
 
 ### 글 쓰기
 

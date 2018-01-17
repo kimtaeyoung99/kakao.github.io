@@ -1,95 +1,311 @@
-[
-  
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
+
+
+<title>THIS IS YOUR LIFE</title>
+<meta name="title" content="THIS IS YOUR LIFE" />
+<meta name="author" content="opensource@kakaocorp.com"/>
+<meta name="description" content="Connect Everything 새로운 연결, 새로운 세상.
+연결의 혁신으로 세상은 더욱 가깝고 새로워진다고 카카오는 믿습니다.
+"/>
+
+<meta property="fb:app_id" content="1204347326263800"/>
+
+<meta property="og:site_name" content="THIS IS YOUR LIFE"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="THIS IS YOUR LIFE"/>
+<meta property="og:description" content="Connect Everything 새로운 연결, 새로운 세상.
+연결의 혁신으로 세상은 더욱 가깝고 새로워진다고 카카오는 믿습니다.
+"/>
+<meta property="og:url" content="http://localhost:8080"/>
+<meta property="og:image" content="http://localhost:8080/assets/images/default_blog_cover.jpg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="THIS IS YOUR LIFE"/>
+<meta name="twitter:description" content="Connect Everything 새로운 연결, 새로운 세상.
+연결의 혁신으로 세상은 더욱 가깝고 새로워진다고 카카오는 믿습니다.
+"/>
+<meta name="twitter:label1" content="Written by"/>
+<meta name="twitter:data1" content="opensource@kakaocorp.com"/>
+<meta name="twitter:image:src" content="http://localhost:8080/assets/images/default_blog_cover.jpg"/>
+
+<meta name="twitter:label2" content="Filed under"/>
+<meta name="twitter:data2" content=""/>
+
+
+
+<meta property="article:published_time" content="2018-01-18T08:20:30+09:00"/>
+
+
+<link href="http://localhost:8080/rss/" rel="alternate" type="application/rss+xml" title="RSS"/>
+<link href="/assets/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
+<link href="/assets/apple-touch-icon.png" rel="apple-touch-icon" type="image/png"/>
+<link href="/assets/apple-touch-icon.png" rel="apple-touch-icon-precomposed" type="image/png"/>
+<link href="/assets/lib/normalize.css" rel="stylesheet" type="text/css"/>
+<link href="/assets/css/monokai.css" rel="stylesheet" type="text/css"/> 
+<link href="/assets/lib/magnific-popup.min.css" rel="stylesheet" type="text/css"/>
+<link href="/assets/fonts/Kakao.css" rel="stylesheet" type="text/css"/> 
+<link href="/assets/css/screen.css" rel="stylesheet" type="text/css"/>
+<script>
+    if (window.location.host.indexOf('tech.kakao.com') > -1 && window.location.protocol == "https:"){
+        window.location = window.location.toString().replace(/^https:/, "http:");
+    }
+</script>
+
+</head>
+<body class="author-template">
+
+<div id="header">
+    <button id="menu-toggle" type="button">
+        <span class="sr-only">Toggle Navigation Menu</span>
+    </button>
+    <button id="search-toggle" type="button">
+        <span class="sr-only">Toggle Search Form</span>
+    </button>
+    <a id="logo" href="/">
+        <span class="sr-only">T_0 Life</span>
+    </a>
+    <div id="search">
+        <input id="search-input" type="search" placeholder="Search..." value="" />
+    </div>
+    <ul class="search__results" id="results-container"></ul>
+
+    <ul id="menu" class="nav">
+        <li class=" active "><a href="/">블로그</a></li>
+        <li class=""><a href="/opensource/">오픈소스</a></li>
+        <li class=""><a href="/openapi/">오픈API</a></li>
+        <li class=""><a href="/events/">기술행사</a></li>
+    </ul>
+</div>
+<!-- Script pointing to jekyll-search.js -->
+<script src="/dest/jekyll-search.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+    SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/search2.json',
+        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+        noResultsText: '<li>No results found</li>',
+        limit: 15,
+        fuzzy: false,
+        exclude: ['Welcome']
+    })
+</script><!-- #header -->
+
+
+
+<div id="wrapper">
+    <div id="navbar" class="container">
+    <h5><a id="link-back" href="/">Main</a></h5>
+    
+<ul id="shares">
+    <li class="stalk" style="display:none">
+        <a id="kakao-link-btn" href="javascript:;"></a>
+    </li>
+    <li>
+        <a id="share-kakaostory" href="javascript:shareStory('http://localhost:8080/authors/search2/');"></a>
+    </li>
+
+    
+    <li>
+        <a id="share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:8080/authors/search2/"
+           onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+            <span class="sr-only">Share to Facebook</span>
+        </a>
+    </li>
+    
+    
+    
+    <li>
+        <a id="share-google" href="https://plus.google.com/share?url=http://localhost:8080/authors/search2/"
+           onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+            <span class="sr-only">Share to Google+</span>
+        </a>
+    </li>
+    
+</ul>
+
+</div>
+
+<div id="cover" class="container"
+     >
+    <div>
+        <div id="cover-author-image"
+             >
+            <span class="sr-only">'s profile image</span>
+        </div>
+        <h1>Search2</h1>
+        <p>All Posts by <em></em></p>
+    </div>
+</div>
+
+<div id="content" class="container">
+    <div id="author-content" role="main">
+        
+        <h1>
+            소개
+        </h1>
+        <p>김태영</p>
+        <p> 강남대학교 IoT전자공학과 17학번 재학중</p>
+        <p>E-mail: 0rlaxodud@naver.com</p>
+        
+        <!--<ul id="post-list">
+            
+                
+            
+        </ul>-->
+        <ul id="pagination" role="navigation">
+    
+</ul>
+
+    </div>
+</div>
+
+
+    <div class="clearfix"></div>
+
+    <a href="#" id="back-to-top"></a>
+</div>
+
+<div id="footer" class="container-fluid">
+    <ul id="links">
+        
+        <li>
+            <a id="link-github" href="http://github.com/kimtaeyoung99" target="_blank">
+                <span class="sr-only">github</span>
+            </a>
+        </li>
+        
+        
+        <li>
+            <a id="link-facebook" href="http://facebook.com/kimtaeyoung99" target="_blank">
+                <span class="sr-only">facebook</span>
+            </a>
+        </li>
+        
+        
+        <li>
+            <a id="link-rss" href="/rss" target="_blank">
+                <span class="sr-only">rss</span>
+            </a>
+        </li>
+    </ul>
+    <ul id="footer-menu">
+        <li><a href="//www.kakaocorp.com">Kakao</a></li>
+        <li><a href="//www.kakaocorp.com/recruit/currentOpportunities">Jobs</a></li>
+        <li><a href="//privacy.kakaocorp.com">Privacy</a></li>
+    </ul>
+    <p id="copyright">
+        <a href="//www.kakaocorp.com">Copyright &copy; Kakao Corp.</a>
+        All rights reserved.
+    </p>
+</div><!--#footer-->
+
+
+<script src="/assets/lib/jquery-1.12.0.min.js"></script>
+<script src="/assets/lib/jquery.magnific-popup.min.js"></script>
+<script src="/assets/js/index.js"></script>
+<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+
+
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-112541630-2', 'auto');
+    ga('send', 'pageview');
+</script>
+
+
+
+    <script type='text/javascript'>
+    //<![CDATA[
+    // // 사용할 앱의 JavaScript 키를 설정해 주세요.
+    Kakao.init('65d48e116d8b9409e08960c4800c3017');
+    // // 카카오링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
+    var ogImg = $('meta[property="og:image"]').attr('content').replace("tech.kakao.com", "kakao.github.io");
+    var ogTitle = $('meta[property="og:title"]').attr('content');
+    var ogUrl = $('meta[property="og:url"]').attr('content');
+    Kakao.Link.createTalkLinkButton({
+        container: '#kakao-link-btn',
+        label: ogTitle,
+        image: {
+            src: ogImg,
+            width: '300',
+            height: '200'
+        },
+        webButton: {
+            text: '카카오 기술블로그',
+            url: ogUrl // 앱 설정의 웹 플랫폼에 등록한 도메인의 URL이어야 합니다.
+        },
+        forwardable: true
+    });
+    //]]>
+</script>
+<script>
+    var _ua = navigator.userAgent.toLowerCase().match(/iphone|ipod|ipad|android/);
+    var sb = document.getElementById("shares").getElementsByTagName("li");
+    if (_ua) {
+        sb[0].style.display = "inline";
+    }
+</script>
+    <script type='text/javascript'>
+   //<![CDATA[
+    // 사용할 앱의 JavaScript 키를 설정해 주세요.
+    //Kakao.init('65d48e116d8b9409e08960c4800c3017');
+    function shareStory(abs_page_url) {
+        Kakao.Story.share({
+            url: abs_page_url,
+            text: '카카오 기술블로그 #개발자 #카카오'
+        });
+    }
+    //]]>
+</script>
+
+    
+    <script>
+window.fbAsyncInit = function() {
+  FB.init({
+    appId      : '1204347326263800',
+    xfbml      : true,
+    version    : 'v2.7'
+  });
+};
+
+(function(d, s, id){
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+    
+
+    
+
+    
+    <script src="https://apis.google.com/js/platform.js" async defer>
     {
-      "title"    : "블로그를 시작합니다",
-      "category" : "",
-      "tags"     : "daily",
-      "url"      : "/2018/01/17/blog-start/",
-      "date"     : "2018-01-17 13:11:00 +0900",
-      "content"   : "<h1 id=\"블로그를-시작한-이유\">블로그를 시작한 이유</h1>\n\n<p>세상에 제 생각을 정리하는 공간을 만들고 싶어졌습니다.</p>\n\n<h2 id=\"굳이-github-pages-인-이유\">굳이 GitHub Pages 인 이유</h2>\n\n<p>저는 전자공학과 학생이고, 컴퓨터, 특히 인공지능에 관심이 많습니다.\n깃헙과 친해지고 싶기도하고, 저만의 페이지를 만들고 싶었습니다.\n또 깃헙은 안망할것 같기도 해서… ㅎ</p>\n\n<hr />\n\n<h2 id=\"감사\">감사</h2>\n\n<p>블로그를 시작할 동기를 부여해준 LG Dream Challenger 정말 감사합니다.</p>\n"
-    } 
-  
-  
+        lang: 'ko'
+    }
+</script>
+
     
-,
-  {
-    "title"    : "404",
-    "category" : "",
-    "tags"     : "",
-    "url"      : "/404.html",
-    "date"     : "",
-    "content"   : "<div style=\"text-align:center;\">\n    <h1>404 Not Found</h1>\n    <img src=\"/assets/images/404.png\" alt=\"404 not found image\"/>\n</div>\n"
-  }
-    
-  
-    
-,
-  {
-    "title"    : "About",
-    "category" : "",
-    "tags"     : "about",
-    "url"      : "/about/",
-    "date"     : "",
-    "content"   : "[kakao](http://www.kakaocorp.com) 기술블로그 입니다.\n\nPowered by [GitHub Pages](https://pages.github.com) and [Jekyll](https://jekyllrb.com).\n\n"
-  }
-    
-  
-    
-,
-  {
-    "title"    : "Authors",
-    "category" : "",
-    "tags"     : "",
-    "url"      : "/authors/",
-    "date"     : "",
-    "content"   : "{% for author in site.authors %}\n* [{{ author.name }}]({{ site.baseurl }}/authors/{{ author.name }})\n{% endfor %}\n"
-  }
-    
-  
-    
-,
-  {
-    "title"    : "기술 행사",
-    "category" : "",
-    "tags"     : "events",
-    "url"      : "/events/",
-    "date"     : "",
-    "content"   : "## [후원] PyCon APAC 2016\n\n* [https://www.pycon.kr/2016apac/](https://www.pycon.kr/2016apac/)\n* 일정: 2016년 8월 13일 ~ 15일\n* 장소: 강남구 코엑스 전시장\n* 주최: 파이콘 한국 준비 위원회\n\n> __[후원 후기]__\n>\n> * [CODING BATTLE 가위바위보! - 못다한 이야기](http://tech.kakao.com/2016/08/19/gawibawibo/)\n> * [CODING BATTLE 가위바위보 이벤트 페이지](http://tech.kakao.com/pycon2016apac)\n\n## [후원] RT:FM 나는 프로그래머다\n\n* [http://onoffmix.com/event/55258](http://onoffmix.com/event/55258)\n* 일정: 2016년 6월 24일(금) 12:30~ 20:40\n* 장소: 더케이트윈타워 A동 11층\n* 주최: 한빛미디어, 나는 프로그래머다\n\n## [후원] 우리가 데이터를 쓰는 법(How We Use Data)\n\n* 주최: [고넥터(Gonnector)](http://www.gonnector.com)\n* 일정: 2016년 04월 12일\n* 장소: 역삼동 MARU180\n\n## [후원] PlayNode 2015\n\n* [http://playnode.io](http://playnode.io)\n* 일정: 2015년 11월 12일\n* 장소: 신대방동 전문건설회관\n\n## [주최] API BootCamp 2014\n\n* 일시: 2014년 5월 10일(토)\n* 장소: 다음커뮤니케이션 한남오피스 5F\n* 내용: 주요 API 및 모바일 SDK 소개 및 실습(센서, 음성인식/로그인, OAuth 2.0 ...)\n\n## [후원] Firefox 개발자 콘퍼런스 2014\n\n* [http://www.mozilla.or.kr/devcon/2014/](http://www.mozilla.or.kr/devcon/2014/)\n* 일시: 2014년 4월 10일(목)\n* 장소: 코엑스 콘퍼런스 센터 317호\n\n## [주최] API 미트업 2014\n\n* 일시: 2014년 4월 8일(화)\n* 장소: 역삼동 D.Camp\n* 내용: 글로벌 API 서비스 동향 및 Daum API에 대한 발표\n\n## [후원] MS 이매진컵 2014, 국가대표 선발전\n\n* 일시: 2014년 3월 27일(목) ~ 28일(금)\n* 장소: 부산 동서대학교 센텀캠퍼스 소향씨어터\n\n## [주최] Devday 15th\n\n* 일시: 2014년 2월 28 ~ 29일\n* 장소: 제주 스페이스.1\n* 내용: 오픈 API를 이용한 창의적인 아이디어 구현과 개발자간 교류 확대\n\n## [주최] Devon 2013\n\n* 일시: 2013년 10월 26 ~ 27일\n* 장소: 코엑스 전시장(Hall D1)\n\n## [주최] Devon 2012\n\n* 일시: 2012년 10월 12일\n* 장소: 신도림 디큐브시티\n\n## [주최] Devon 2011\n\n* 일시: 2011년 11월 25일\n* 장소: 신림동 쉐라톤서울 호텔 디큐브시티\n\n---\n문의: [opensource@kakaocorp.com](mailto:opensource@kakaocorp.com)\n"
-  }
-    
-  
-    
-  
-    
-,
-  {
-    "title"    : "kakao의 오픈API",
-    "category" : "",
-    "tags"     : "openapi",
-    "url"      : "/openapi/",
-    "date"     : "",
-    "content"   : "## [Kakao Developers](https://developers.kakao.com)\n\n* [플랫폼 API](https://developers.kakao.com/features/platform)\n - [사용자관리](https://developers.kakao.com/features/platform#사용자관리)\n - [푸시알림](https://developers.kakao.com/features/platform#푸시-알림)\n - [앱로그 분석](https://developers.kakao.com/features/platform#앱로그-분석)\n* [카카오 서비스 API](https://developers.kakao.com/features/kakao)\n - [카카오스토리](https://developers.kakao.com/features/kakao#카카오스토리-API)\n - [카카오톡](https://developers.kakao.com/features/kakao#카카오톡-API)\n - [카카오 링크](https://developers.kakao.com/features/kakao#카카오-링크)\n* [개발가이드](https://developers.kakao.com/docs)\n* [개발자포럼(DevTalk)](https://devtalk.kakao.com/)\n* ~~[카카오톡 링크](http://www.kakao.com/services/api/kakao_link)~~\n* ~~[스토리 링크](http://www.kakao.com/services/api/story_link)~~\n\n## [Daum Developers](https://developers.daum.net)\n\n* [콘솔](https://developers.daum.net/console)\n* [API](http://developers.daum.net/services)\n - [검색](http://developers.daum.net/services/apis/search)\n - [뉴톤](http://developers.daum.net/services/apis/newtone)\n - [로그인](http://developers.daum.net/services/apis/login)\n - [로컬](http://developers.daum.net/services/apis/local)\n - [블로그](http://developers.daum.net/services/apis/blog)\n - [쇼핑](http://developers.daum.net/services/apis/shopping)\n - [지도](http://apis.map.daum.net)\n - [카페](http://developers.daum.net/services/apis/cafe)\n - [캘린더](http://developers.daum.net/services/apis/calendar)\n - [콘텐츠](http://developers.daum.net/services/apis/contents)\n - [프로필](http://developers.daum.net/services/apis/user)\n* [개발자 카페](http://cafe.daum.net/daumdna)\n\n## [카카오 게임 센터](https://gamecenter.kakao.com/)\n\n* [비즈 계정 센터](https://biz.kakao.com)\n\n## [플러스친구](https://center-pf.kakao.com/)\n\n* [API 문서](https://github.com/plusfriend/auto_reply)\n\n### [티스토리](http://www.tistory.com/guide/blog)\n\n* [OAuth 인증 가이드](http://www.tistory.com/guide/api/oauth)\n* [API 가이드](http://www.tistory.com/guide/api/index)\n  - [블로그](http://www.tistory.com/guide/api/blog)\n  - [포스트](http://www.tistory.com/guide/api/post)\n  - [카테고리](http://www.tistory.com/guide/api/category)\n  - [댓글](http://www.tistory.com/guide/api/comment)\n  - [방명록](http://www.tistory.com/guide/api/guestbook)\n\n<!--\n* 커버 이미지 출처: [API Testing and some amazing testing tools](http://go-gaga-over-testing.blogspot.kr/2013/11/api-testing-and-some-amazing-testing.html)\n-->\n"
-  }
-    
-  
-    
-,
-  {
-    "title"    : "kakao의 오픈소스",
-    "category" : "",
-    "tags"     : "opensource, s2graph, mrte, hbase-tools, hbase-region-inspector, adt, daum-editor",
-    "url"      : "/opensource/",
-    "date"     : "",
-    "content"   : "<a id=\"forkme\" href=\"https://github.com/kakao\"></a>\n\n## Cite\n\n* Continuous Deployment using Kubernetes and GitHub\n* [https://github.com/kakao/cite](https://github.com/kakao/cite)\n* [GitHub API], [Kubernetes], [Docker] 외\n\n## Apache S2Graph\n\n* 대용량 분산 그래프 데이터베이스\n* [아파치 인큐베이터 프로젝트](http://s2graph.incubator.apache.org)로 선정(2015/11/29)\n* [http://github.com/kakao/s2graph](http://github.com/kakao/s2graph)\n* [Scala], [Play 프레임웍], [HBase] 외\n\n---\n\n## MRTE(MySQL Realtime Traffic Emulator)\n\n* MySQL 트래픽 테스트 환경 구축 도구\n* 실제 서비스의 MySQL 트래픽을 실시간으로 수집하고\n* [https://github.com/kakao/MRTE-Collector](https://github.com/kakao/MRTE-Collector)\n* 실제 서비스에서 수집한 데이터를 테스트 환경의 MySQL에서 재현\n* [https://github.com/kakao/MRTE-Player](https://github.com/kakao/MRTE-Player)\n* [Go], [MySQL]\n\n---\n\n## HBase Tools & Region Inspector\n\n* HBase 명령행 도구 모음\n* [https://github.com/kakao/hbase-tools](https://github.com/kakao/hbase-tools)\n* HBase 리전 통계 시각화 도구\n* [https://github.com/kakao/hbase-region-inspector](https://github.com/kakao/hbase-region-inspector)\n* [Clojure], [HBase]\n\n---\n\n## ADT - Almighty Data Transmitter\n\n* MySQL 기반 만능 데이터 전송 도구\n* MySQL 샤드 재분배, 실시간 마이그레이션\n* [https://github.com/kakao/adt](https://github.com/kakao/adt)\n\n---\n\n## Daum Editor\n\n* 웹브라우저용 WYSIWYG 에디터\n* 메일, 카페, 블로그, 티스토리 등 다양한 다음 서비스에서 사용 중\n* [https://github.com/kakao/DaumEditor](https://github.com/kakao/DaumEditor)\n\n---\n\n> [http://github.com/kakao](http://github.com/kakao) 에서 다양한 kakao의 오픈소스 프로젝트를 만나보세요.\n\n[Scala]:http://scala-lang.org\n[Play 프레임웍]:https://www.playframework.com\n[Clojure]:http://clojure.org\n[Go]:https://golang.org\n[HBase]:https://hbase.apache.org\n[MySQL]:http://www.mysql.com\n[GitHub API]:https://developer.github.com/enterprise/2.8/v3/\n[Kubernetes]:http://kubernetes.io/docs/\n[Docker]:https://docs.docker.com/\n"
-  }
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-]
+
+</body>
+</html>

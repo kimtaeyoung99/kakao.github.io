@@ -7,8 +7,8 @@
 </description>
     <link>http://localhost:8080/</link>
     <atom:link href="http://localhost:8080/rss" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 Jan 2018 07:36:11 +0900</pubDate>
-    <lastBuildDate>Thu, 18 Jan 2018 07:36:11 +0900</lastBuildDate>
+    <pubDate>Thu, 18 Jan 2018 08:20:30 +0900</pubDate>
+    <lastBuildDate>Thu, 18 Jan 2018 08:20:30 +0900</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
@@ -35,6 +35,8 @@
         
         <category>daily</category>
         
+        
+        <category>daily</category>
         
       </item>
     
