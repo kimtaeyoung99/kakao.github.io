@@ -2,5 +2,5 @@
 layout: author
 name: taeyoung.kim
 title: 김태영
-image: /files/authors/albert.kim.jpg
+image: /files/authors/taeyoung.kim.jpg
 ---
