@@ -2,6 +2,10 @@
 <html>
 <head>
     {% include head.html %}
+    {% if site.google_analytics %}
+        {% include google_analytics.html %}
+    {% endif %}
+    
 </head>
 <body class="{{ page.layout | append: '-template' }}">
 
@@ -24,6 +28,9 @@
 
 {% if site.google_analytics %}
 {% include google_analytics.html %}
+{% endif %}
+{% if site.naver_analytics %}
+{% include naver_analytics.html %}
 {% endif %}
 
 {% if page.layout != 'home' %}
