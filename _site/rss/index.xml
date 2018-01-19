@@ -7,8 +7,8 @@
 </description>
     <link>http://localhost:8080/</link>
     <atom:link href="http://localhost:8080/rss" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Jan 2018 17:07:45 +0900</pubDate>
-    <lastBuildDate>Fri, 19 Jan 2018 17:07:45 +0900</lastBuildDate>
+    <pubDate>Fri, 19 Jan 2018 18:34:20 +0900</pubDate>
+    <lastBuildDate>Fri, 19 Jan 2018 18:34:20 +0900</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
@@ -31,8 +31,8 @@
 &lt;p&gt;블로그를 시작할 동기를 부여해준 LG Dream Challenger 정말 감사합니다.&lt;/p&gt;
 </description>
         <pubDate>Wed, 17 Jan 2018 13:11:00 +0900</pubDate>
-        <link>http://localhost:8080/2018/01/17/blog-start/</link>
-        <guid isPermaLink="true">http://localhost:8080/2018/01/17/blog-start/</guid>
+        <link>http://localhost:8080/daily/blog-start/</link>
+        <guid isPermaLink="true">http://localhost:8080/daily/blog-start/</guid>
         
         <category>daily</category>
         

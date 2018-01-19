@@ -9,7 +9,7 @@ timezone: Asia/Seoul
 
 repository: kimtaeyoung99/kimtaeyoung99.github.io
 
-permalink: /:year/:month/:day/:title/
+permalink: /:categories/:title/
 
 excerpt_separator: <!--more-->
 
@@ -60,7 +60,6 @@ google_analytics:
 naver_analytics:
  wa: '6536d4dcc7c348'
 facebook:
-  app_id: '1204347326263800'
   username: kimtaeyoung99
 github_url:
   username: kimtaeyoung99
