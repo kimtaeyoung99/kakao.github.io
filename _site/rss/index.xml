@@ -2,18 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>THIS IS YOUR LIFE</title>
-    <description>Connect Everything 새로운 연결, 새로운 세상.
-연결의 혁신으로 세상은 더욱 가깝고 새로워진다고 카카오는 믿습니다.
+    <description>세상에는 배울 것이 너무나도 많고 저는 항상 부족합니다.
+언젠가 제가 배우고 익힌 지식이 누군가에게 도움이 되길 원합니다.
 </description>
     <link>http://localhost:8080/</link>
     <atom:link href="http://localhost:8080/rss" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Jan 2018 11:34:42 +0900</pubDate>
-    <lastBuildDate>Fri, 19 Jan 2018 11:34:42 +0900</lastBuildDate>
+    <pubDate>Fri, 19 Jan 2018 12:30:33 +0900</pubDate>
+    <lastBuildDate>Fri, 19 Jan 2018 12:30:33 +0900</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
         <title>블로그를 시작합니다</title>
         <description>&lt;h1 id=&quot;블로그를-시작한-이유&quot;&gt;블로그를 시작한 이유&lt;/h1&gt;
+&lt;!--more--&gt;
 
 &lt;p&gt;세상에 제 생각을 정리하는 공간을 만들고 싶어졌습니다.&lt;/p&gt;
 

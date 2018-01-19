@@ -1,8 +1,8 @@
 title: THIS IS YOUR LIFE
 email: 0rlaxodud@naver.com
 description: |
-  Connect Everything 새로운 연결, 새로운 세상.
-  연결의 혁신으로 세상은 더욱 가깝고 새로워진다고 카카오는 믿습니다.
+  세상에는 배울 것이 너무나도 많고 저는 항상 부족합니다.
+  언젠가 제가 배우고 익힌 지식이 누군가에게 도움이 되길 원합니다.
 baseurl: ''
 url: 'http://kimtaeyoung99.github.io'
 timezone: Asia/Seoul 
@@ -15,7 +15,7 @@ excerpt_separator: <!--more-->
 
 markdown: kramdown
 
-krandown:
+kramdown:
   input: GFM
   highlighter: rouge
 
@@ -45,12 +45,12 @@ defaults:
     values:
       layout: tag
 
-exclude: [README.md, Gemfile, Gemfile.lock]
+exclude: [README.md, LICENSE.md, Gemfile, Gemfile.lock]
 
 keep_files: [assets, files]
 github: [metadata]
 # iolo's custom
-author: opensource@kakaocorp.com
+author: Kimtaeyoung
 image: '/assets/images/default_blog_cover.jpg'
 asset_url: /assets
 #asset_url: //meta-kage.kakaocdn.net/dn/osa/blog/assets
@@ -60,8 +60,6 @@ google_analytics:
 facebook:
   app_id: '1204347326263800'
   username: kimtaeyoung99
-google_plus:
-  username: kakaodev
 github_url:
   username: kimtaeyoung99
 
