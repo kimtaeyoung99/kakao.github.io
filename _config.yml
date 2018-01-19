@@ -57,6 +57,8 @@ asset_url: /assets
 #asset_url: //t1.daumcdn.net/osa/blog/assets
 google_analytics:
   ua: 'UA-112541630-2'
+naver_analytics:
+ wa: '6536d4dcc7c348'
 facebook:
   app_id: '1204347326263800'
   username: kimtaeyoung99
