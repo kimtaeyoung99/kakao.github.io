@@ -19,7 +19,7 @@ image: /files/authors/taeyoung.kim.jpg
 ----------------------
 
 ## Work Experiences
-**[Lotteria](http://www.lotteria.com/){:target="_blank"}**, Suwon, Republic of Korea (Dec. 2017 - Current)
+**[Lotteria](http://www.lotteria.com/){:target="_blank"}**, Suwon, Republic of Korea (Dec. 2016 - Current)
 * Leader
 * Assemble and sell the product, Cleaning of store
 * Raw material transportation and arrangement
