@@ -31,7 +31,7 @@ layout: default
             <p id="author-name">{{ author.name }}</p>
         </a>
         <p id="post-date">{{ page.date | date: '%Y-%m-%d %H:%M' }}</p>
-        <p id="post-more"><a href="https://kimtaeyoung99.github.io{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.id }}">0 Comments</a></p>
+        <p id="post-more"><a href="https://kimtaeyoung99.github.io{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}">0 Comments</a></p>
         <!--<a id="post-more" href="{{ author.url }}">
             <span>Read more posts by this author</span>
         </a>-->
@@ -71,7 +71,7 @@ layout: default
 var disqus_config = function () {
     
     this.page.url = "{{ site.url }}{{ page.url }}";  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = "{{ page.id }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    this.page.identifier = "{{ page.url }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 
 (function() { // DON'T EDIT BELOW THIS LINE

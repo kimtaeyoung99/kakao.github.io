@@ -4,7 +4,7 @@ description: |
   세상에는 배울 것이 너무나도 많고 저는 항상 부족합니다.
   언젠가 제가 배우고 익힌 지식이 누군가에게 도움이 되길 원합니다.
 baseurl: ''
-url: 'http://kimtaeyoung99.github.io'
+url: "http://kimtaeyoung99.github.io"
 timezone: Asia/Seoul 
 
 repository: kimtaeyoung99/kimtaeyoung99.github.io
@@ -63,7 +63,6 @@ facebook:
   username: kimtaeyoung99
 github_url:
   username: kimtaeyoung99
-disqus:
-  shortname: tae0
+disqus: tae0
 
 port: 8080
