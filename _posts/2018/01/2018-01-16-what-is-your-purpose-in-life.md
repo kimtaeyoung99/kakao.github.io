@@ -5,6 +5,7 @@ author: taeyoung.kim
 date: 2018-01-16 09:00
 categories: [daily]
 tags: [daily,questions]
+comments: true
 image: /files/covers/q&a-aday.jpg
 ---
 

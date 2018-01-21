@@ -6,7 +6,7 @@ image: /files/authors/taeyoung.kim.jpg
 ---
 # Kim Taeyoung
 ## Not all those who wander are lost
-* **E-mail** : 0rlaxodud@gmail.com
+* **E-mail** : <0rlaxodud@gmail.com>
 * **SNS** : [Facebook](https://www.facebook.com/kimtaeyoung99){:target="_blank"}, [Instagram](https://www.instagram.com/kimtaeyoung_0318){:target="_blank"}
 
 ----------------------

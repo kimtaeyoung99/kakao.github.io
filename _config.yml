@@ -63,5 +63,7 @@ facebook:
   username: kimtaeyoung99
 github_url:
   username: kimtaeyoung99
+disqus:
+  shortname: tae0
 
 port: 8080
