@@ -55,10 +55,14 @@ image: '/assets/images/default_blog_cover.jpg'
 asset_url: /assets
 #asset_url: //meta-kage.kakaocdn.net/dn/osa/blog/assets
 #asset_url: //t1.daumcdn.net/osa/blog/assets
-google_analytics:
-  ua: 'UA-112541630-2'
-google_optimize:
-  ga: 'GTM-WFWZQ6Z'
+google: 
+  analytics:
+    ua: 'UA-112541630-2'
+  optimize:
+    ga: 'GTM-WFWZQ6Z'
+  tagmanager:
+    id: 'GTM-KGDBWHT'
+
 naver_analytics:
  wa: '6536d4dcc7c348'
 facebook:

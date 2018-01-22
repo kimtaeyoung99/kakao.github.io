@@ -8,9 +8,16 @@
     {% if site.google_analytics %}
     {% include google_analytics.html %}
     {% endif %}
+    {% if site.google_tagmanager %}
+    {% include google_tagmanager.html %}
+    {% endif %}
     
 </head>
 <body class="{{ page.layout | append: '-template' }}">
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google.tagmanager.id }}"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 {% include header.html %}
 
