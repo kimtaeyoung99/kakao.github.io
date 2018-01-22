@@ -2,6 +2,17 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
+{% if site.google_optimize %}
+{% include google_optimize.html %}
+{% endif %}
+{% if site.google_analytics %}
+{% include google_analytics.html %}
+{% endif %}
+{% if site.google_tagmanager %}
+{% include google_tagmanager.html %}
+{% endif %}
+
+
 {% if page.layout == 'post' or page.layout == 'page' %}
 {% assign meta_title = page.title %}
 {% assign meta_author = page.author | default: site.author %}
