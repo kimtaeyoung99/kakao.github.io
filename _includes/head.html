@@ -3,15 +3,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
 
-{% include google_optimize.html %}
-
-
-{% include google_analytics.html %}
-
-
-{% include google_tagmanager.html %}
-
-
 
 {% if page.layout == 'post' or page.layout == 'page' %}
 {% assign meta_title = page.title %}
@@ -31,6 +22,7 @@
 {% unless meta_image contains '://' %}
 {% assign meta_image = meta_image | prepend: site.url %}
 {% endunless %}
+
 <title>{{ meta_title }}</title>
 <meta name="title" content="{{ meta_title }}" />
 <meta name="author" content="{{ meta_author }}"/>
