@@ -2,6 +2,9 @@
 <html>
 <head>
     {% include head.html %}
+    {% if site.google_optimize %}
+    {% include google_optimize.html %}
+    {% endif %}
     {% if site.google_analytics %}
     {% include google_analytics.html %}
     {% endif %}
