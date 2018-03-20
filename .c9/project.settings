@@ -2,6 +2,9 @@
     "aws": {
         "@awsRegion": "ap-northeast-2"
     },
+    "installer": {
+        "@auto": true
+    },
     "instance": {
         "@automaticShutdown": "30"
     },

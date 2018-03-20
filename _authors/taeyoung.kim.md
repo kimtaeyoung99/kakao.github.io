@@ -13,12 +13,15 @@ image: /files/authors/taeyoung.kim.jpg
 
 
 ## Education
-**[Kangnam University](http://el.kangnam.ac.kr/){:target="_blank"}**, Yongin, Republic of Korea (Mar. 2017 - Currently attending)
+**[Kangnam University](http://el.kangnam.ac.kr/){:target="_blank"}**, Yongin, Republic of Korea (Mar. 2017 - Temporary Absence)
 * Department of IoT Electronic Engineering (GPA: 4.3/4.5)
 
 ----------------------
 
 ## Work Experiences
+
+**Military Service **, Republic of Korea (Mar. 2018 - Dec. 2019)
+
 **[Lotteria](http://www.lotteria.com/){:target="_blank"}**, Suwon, Republic of Korea (Dec. 2016 - Current)
 * Leader
 * Assemble and sell the product, Cleaning of store
