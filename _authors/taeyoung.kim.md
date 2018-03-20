@@ -20,7 +20,7 @@ image: /files/authors/taeyoung.kim.jpg
 
 ## Work Experiences
 
-**Military Service **, Republic of Korea (Mar. 2018 - Dec. 2019)
+Military Service , Republic of Korea (Mar. 2018 - Dec. 2019)
 
 **[Lotteria](http://www.lotteria.com/){:target="_blank"}**, Suwon, Republic of Korea (Dec. 2016 - Current)
 * Leader
