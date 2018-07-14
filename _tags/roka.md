@@ -1,5 +1,5 @@
 ---
 name: roka
-title: '2018.03.26 - 2019.12.25 나의 군생활'
+title: 'Republic of Korea Army 2018.03.26 - 2019.12.25 '
 image: /files/covers/roka.jpg
 ---
