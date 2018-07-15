@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Q&A a day, 1. What is your purpose in life?'
+title: 'Q&A a day, What is your purpose in life?'
 author: taeyoung.kim
 date: 2018-01-16 09:00
 categories: [daily]
