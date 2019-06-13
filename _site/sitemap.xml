@@ -5,6 +5,42 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://localhost:8080/daily/sleepy/</loc>
+    
+    <lastmod>2019-06-13T22:55:00+09:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8080/daily/roka/</loc>
+    
+    <lastmod>2018-07-14T20:14:00+09:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8080/daily/what-do-you-have-to-lose/</loc>
+    
+    <lastmod>2018-07-08T09:00:00+09:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8080/daily/when-did-you-laugh-most-lately/</loc>
+    
+    <lastmod>2018-07-07T09:00:00+09:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
     <loc>http://localhost:8080/daily/can-people-change/</loc>
     
     <lastmod>2018-01-17T09:00:00+09:00</lastmod>
@@ -67,6 +103,8 @@
   
   
   
+  
+  
   <url>
     <loc>http://localhost:8080/authors/taeyoung.kim</loc>
     <changefreq>monthly</changefreq>
@@ -82,6 +120,12 @@
   
   <url>
     <loc>http://localhost:8080/tags/questions</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:8080/tags/roka</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
